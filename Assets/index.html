@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Bootstrap</title>
+    <!-- Menghubungkan file Bootstrap offline -->
+    <!-- <link rel="stylesheet" href="C:\Go_Lang\HTML\Day4\Assets\css\bootstrap.css"> -->
+    <!-- menyisipkan bootstrap online -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- menyisipkan jquery dan js Bootstrap -->
+    <!-- <script src="C:\Go_Lang\HTML\Day4\Assets\js\bootstrap.js"></script> -->
+
+    <!-- Internal css untuk header -->
+    <style type="text/css">
+        div{
+            background: #dadcde;
+            text-align: center;
+            border: 0px solid #fff;
+            padding-block-start: 0%;
+            color: #fff;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Membuat komponen jumbotron sebagai header -->
+    <!-- <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1>Welcome to Day 4 FTGO</h1>
+                        <p>Aku sedang belajar kak</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+    <!-- Jumbotron -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Selamat datang di kelas FTGO day 4</h1>
+            <p>kita sedang belajar</p>
+            <p>
+                <button class="btn btn-lg btn-primary">Segera</button>
+                <button class="btn btn-md btn-primary">Segera</button>
+                <button class="btn btn-sm btn-primary">Segera</button>
+
+                <button class="btn btn-lg btn-danger">Segera</button>
+                <button class="btn btn-md btn-danger">Segera</button>
+                <button class="btn btn-sm btn-danger">Segera</button>
+
+                <button class="btn btn-lg btn-success">Segera</button>
+                <button class="btn btn-md btn-success">Segera</button>
+                <button class="btn btn-sm btn-success">Segera</button>
+
+                <button class="btn btn-lg btn-info">Segera</button>
+                <button class="btn btn-md btn-info">Segera</button>
+                <button class="btn btn-sm btn-info">Segera</button>
+
+                <button class="btn btn-lg btn-default">Segera</button>
+                <button class="btn btn-md btn-default">Segera</button>
+                <button class="btn btn-sm btn-default">Segera</button>
+
+            </p>
+        </div>
+    </div>
+
+    <!-- Membuat table -->
+    <!-- <h1>Membuat table</h1>
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Makanan</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Burger</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Burger</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Burger</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Burger</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Burger</td>
+                    <td>1000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div> -->
+
+    <!-- Pagination -->
+    <!-- <div class="container">
+        <h1>Bootstrap pagination</h1>
+        <ul class="pagination pagination-md">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+        </ul>
+    </div> -->
+
+    <!-- breadcrumb -->
+    <!-- <div class="breadcrumb">
+        <h1>Cara membuat breadcrumpt</h1>
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Service</a></li>
+        </ul>
+    </div> -->
+
+    <!-- panel -->
+    <!-- <h1>Membuat panel bootstrap</h1>
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <b>Panel success</b>
+            <div class="panel-body">
+                <p>Membuat panel dengan Bootstrap</p>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <h1>Membuat panel bootstrap</h1>
+    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h5 class="card-title">Primary card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div> -->
+
+    <!-- Grid -->
+    <!-- <h1>Mengenal Grid Bootstrap</h1>
+    <br>
+    <div class="col-md-12">col-md-12</div>
+    <div class="row">
+        <div class="col-md-6">col-md-6</div>
+        <div class="col-md-6">col-md-6</div>
+    </div> -->
+</body>
+</html>
